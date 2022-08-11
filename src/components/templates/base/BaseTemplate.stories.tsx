@@ -5,6 +5,10 @@ import { mockBaseTemplateProps } from './BaseTemplate.mocks';
 export default {
   title: 'templates/BaseTemplate',
   component: BaseTemplate,
+  parameters: {
+    // More on Story layout: https://storybook.js.org/docs/react/configure/story-layout
+    layout: 'fullscreen',
+  },
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {},
 } as ComponentMeta<typeof BaseTemplate>;
